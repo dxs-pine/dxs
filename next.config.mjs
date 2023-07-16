@@ -8,6 +8,7 @@ import { get } from '@vercel/edge-config'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  swcMinify: true,
   experimental: {
     serverActions: true,
   },
